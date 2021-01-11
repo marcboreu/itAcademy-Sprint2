@@ -1,0 +1,58 @@
+body { 
+    background: #26272b;
+    margin: 0px;
+}
+.title {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.box {
+  background-color: white;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+  box-shadow: inset 0 0 3px #000;
+  overflow: hidden;
+}
+.box b {
+  display: block;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background-image: url('https://www.flaticon.es/svg/vstatic/svg/496/496556.svg?token=exp=1610363073~hmac=e42c46296d88de76f91523ed8725e7fc');
+  box-shadow: inset -5px -5px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  position: absolute;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+    from { left: 0vw; } to { left: 98vw; }
+}
+@-moz-keyframes moveX {
+    from { left: 0vw; } to { left: 98vw; }
+}
+@-o-keyframes moveX {
+    from { left: 0vw; } to { left: 98vw; }
+}
+@keyframes moveX {
+    from { left: 0vw; } to { left: 98vw; }
+}
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 98vw; }
+}
+@-moz-keyframes moveY {
+    from { top: 0; } to { top: 98vw; }
+}
+@-o-keyframes moveY {
+    from { top: 0; } to { top: 98vw; }
+}
+@keyframes moveY {
+    from { top: 0; } to { top: 98vw; }
+}
+
+
